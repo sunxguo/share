@@ -1,0 +1,151 @@
+/* CSS Document */
+body{
+	font-size: 1.5em;
+	color: rgb(0,0,0);
+}
+section{
+	width: 100%;
+}
+a{
+	text-decoration: none;
+	color: rgb(0,0,0);
+}
+a:active{
+	text-decoration: none;
+	color: rgb(0,0,0);
+}
+h1{
+	text-align: center;
+	font-size: 2em;
+	line-height: 2em;
+}
+p.content{
+	line-height: 1.6em;
+	font-size: 1.4em;
+	padding-top: 10px;
+}
+.color-w{
+	color: white;
+}
+.border-t1{
+	border-top: 1px solid #CCC;
+}
+.border-b1{
+	border-bottom: 1px solid #CCC;
+}
+.border-l1{
+	border-left: 1px solid #CCC;
+}
+.border-r1{
+	border-right: 1px solid #CCC;
+}
+.bt{
+	background-color: rgb(0,122,255);
+	border-radius: 10px;
+	color: white;
+	text-align: center;
+}
+.top{
+	position: relative;
+}
+.top .shop-image{
+	width: 100%;
+}
+.top .part{
+	position: absolute;
+	width: 100%;
+}
+.top .part.comment{
+	bottom: 62px;
+}
+.top .part.comment .star{
+	font-size: 2em;
+	margin-left: 5%;
+}
+.top .part.comment .followers{
+	margin-right: 5%;
+	width: 190px;
+	height: 50px;
+	line-height: 50px;
+	margin-top: 8px;
+}
+.top .part.info{
+	bottom: 0px;
+	background-color: rgba(255,255,255,.7);
+	color: rgb(0,0,0);
+	padding: 10px 0px;
+}
+.top .part.info .coupon{
+	margin-left: 5%;
+}
+.top .part.info .command{
+	margin-right: 5%;
+}
+.shop-info{
+	padding: 10px 0;
+}
+.shop-info .name .name-txt{
+	font-size: 1.6em;
+	margin-left: 5%;
+}
+.shop-info .name .bt{
+	width: 190px;
+	height: 50px;
+	line-height: 50px;
+	margin-top: 8px;
+	margin-right: 5%;
+}
+.shop-info .notice{
+	padding-left: 5%;
+	line-height: 1.6em;
+}
+.contact{
+	padding: 20px 0;
+}
+.contact .address{
+	font-size: 1.4em;
+	margin-left: 5%;
+}
+.contact .address i{
+	font-size: 1.8em;
+	margin-top: 10px;
+}
+.contact .icon-phone{
+	margin-right: 5%;
+	padding-left: 5%;
+}
+.contact .icon-phone i{
+	font-size: 3em;
+}
+.activity img{
+	width: 100%;
+}
+.activity p.title{
+	font-size: 1.4em;
+	padding-left: 5%;
+	line-height: 2em;
+}
+.pro-list{
+	padding-left: 5%;
+}
+.pro-list h2{
+	font-size: 1.4em;
+}
+.pro-list .description{
+	margin: 10px 0;
+	padding-right: 5%;
+}
+.pro-list ul li{
+	float: left;
+	width: 26%;
+}
+.pro-list ul li img{
+	width: 100%;
+}
+.pro-list ul li:nth-child(2){
+	margin-left: 6%;
+}
+.pro-list ul li:nth-child(3){
+	margin-left: 6%;
+	margin-right: 5%;
+}
