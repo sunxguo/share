@@ -65,7 +65,7 @@
 		</div>
 	</section> -->
 	<?php foreach($descriptions as $desc):?>
-	<section class="pro-list border-t1">
+	<section class="pro-list border-t1 clearfix">
 		<h2><?php echo $desc->customBlockTitle;?></h2>
 		<p class="description">
 			<?php echo $desc->customBlockContent;?>
