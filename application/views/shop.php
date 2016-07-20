@@ -1,7 +1,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>商户首页</title>
+	<title><?php echo $shop->shopBranchName;?></title>
 	<link href="/assets/Hui-iconfont/iconfont.css" rel="stylesheet" type="text/css" />
 	<link href="/assets/css/base.css" rel="stylesheet" type="text/css" />
 	<link href="/assets/css/shop.css" rel="stylesheet" type="text/css" />
