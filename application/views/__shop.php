@@ -46,18 +46,16 @@
     </div>
 </div>
 <ul>
-	<?php foreach($activities as $activity):?>
+	<?php foreach($descriptions as $desc):?>
 	<li class="x_t">
     	<div style=" border-bottom:1px #eeeeee solid;">
-            <a href="/share/activity?shopId=<?php echo $activity->shopInfo->shopId;?>&activityId=<?php echo $activity->activityId;?>" class="x_n">
-                <img src="<?php echo $activity->thumbnail1;?>"/>
+            <a href="#" class="x_n">
+                <img src="/assets/images/12.png"/>
             </a>
-            <a href="/share/activity?shopId=<?php echo $activity->shopInfo->shopId;?>&activityId=<?php echo $activity->activityId;?>" class="x_o"><?php echo $activity->activityName;?></a>
+            <a href="#" class="x_o"><?php echo $desc->customBlockTitle;?></a>
             <div class="x_p">
-                <span class="x_q">发起人：<?php echo $activity->shopInfo->shopBranchName;?></span>
-                <?php if($activity->activityEndtime!=null):?>
-                <span class="x_r">剩<?php echo round((strtotime($activity->activityEndtime)-strtotime(date("Y-m-d")))/3600/24);?>天</span>
-            	<?php endif;?>
+                <span class="x_q">发起人：魔方KTV（柳巷店）</span>
+                <span class="x_r">剩3天</span>
             </div>
         </div>
         <p class="x_s">
@@ -65,8 +63,7 @@
             5
         </p>
     </li>
-	<?php endforeach;?>
-    <!-- <li <li class="x_t">
+    <li <li class="x_t">
     	<div style=" border-bottom:1px #eeeeee solid;">
             <a href="#" class="x_n">
                 <img src="/assets/images/15.png"/>
@@ -81,29 +78,25 @@
         	<img src="/assets/images/22.png"/>
             5
         </p>
-    </li> -->
+    </li>
 </ul>
 <div class="x_u">
-	<ul class="x_v" id="category_list">
-    	<!-- <li class="x_w x_x">店长推荐</li> -->
-		<?php foreach($categories as $cat):?>
-        <li class="x_w"><?php echo $cat->name;?></li>
-    	<?php endforeach;?>
-       <!--  <li class="x_w">果汁蔬菜饮料</li>
+	<ul class="x_v">
+    	<li class="x_w x_x">店长推荐</li>
+        <li class="x_w">咖啡</li>
+        <li class="x_w">果汁蔬菜饮料</li>
         <li class="x_w">汤</li>
         <li class="x_w">披萨</li>
         <li class="x_w">意大利面</li>
-        <li class="x_w">其他</li> -->
+        <li class="x_w">其他</li>
     </ul>
-	<?php foreach($categories as $key=>$cat):?>
-    <ul class="x_y" style="display:none;" id="food_list<?php echo $key;?>">
-    	<?php foreach($cat->goodsList as $good):?>
+    <ul class="x_y">
     	<li class="x_z">
-        	<img src="<?php echo $good->pic1;?>" class="x_Aa"/>
+        	<img src="/assets/images/23_03.png" class="x_Aa"/>
             <div class="x_Ab">
-            	<p class="x_Ac"><?php echo $good->detailedname;?></p>
+            	<p class="x_Ac">超级至尊披萨超级至尊披萨超级至尊披萨</p>
                 <div class="x_Ad">
-                	<span class="x_Ae">￥<?php echo $good->price;?></span>
+                	<span class="x_Ae">￥35</span>
                     <div class="i_box">
                         <a href="javascript:;" class="J_minus">-</a>
                         <input type="text" value="0" class="J_input" />
@@ -112,21 +105,11 @@
                 </div>
             </div>
         </li>
-    	<?php endforeach;?>
+        
     </ul>
-    <?php endforeach;?>
 </div>
 <ul class="x_Ag">
-	<?php foreach($blocks as $block):?>
 	<li class="x_Ah">
-    	<a href="/share/block?id=<?php echo $block->blockId;?>" class="x_Ai"><?php echo $block->customBlockTitle;?></a>
-        <p class="x_Aj"><?php echo $block->customBlockContent;?></p>
-        <a href="/share/block?id=<?php echo $block->blockId;?>" class="x_Ak">
-        	<img src="<?php echo $block->customBlockPic1;?>"/>
-        </a>
-    </li>
-	<?php endforeach;?>
-    <!-- <li class="x_Ah">
     	<a href="#" class="x_Ai">秀服装店</a>
         <p class="x_Aj">店铺介绍店铺介绍店铺介绍</p>
         <a href="#" class="x_Ak">
@@ -139,13 +122,20 @@
         <a href="#" class="x_Ak">
         	<img src="/assets/images/16.png"/>
         </a>
-    </li> -->
+    </li>
+    <li class="x_Ah">
+    	<a href="#" class="x_Ai">秀服装店</a>
+        <p class="x_Aj">店铺介绍店铺介绍店铺介绍</p>
+        <a href="#" class="x_Ak">
+        	<img src="/assets/images/16.png"/>
+        </a>
+    </li>
 </ul>
-<!-- <ul class="x_Al">
+<ul class="x_Al">
 	<li class="x_Am"><img src="/assets/images/6.png"/></li>
     <li class="x_An">选好了（2）</li>
     <li class="x_Ao">合计：<span>￥0.00</span></li>
-</ul> -->
+</ul>
 <ul class="x_Ap">
 	<li>
     	<a href="#">
@@ -182,15 +172,6 @@
 
 
 <script>
-$(document).ready(function(){
-  $("#category_list li").click(function(){
-    $(".x_w").removeClass("x_x");
-    $(this).addClass("x_x");
-    $(".x_y").hide();
-    $("#food_list"+$(this).index()).show();
-  });
-    $("#category_list li:first-child").click();
-});
 $.fn.iVaryVal=function(iSet,CallBack){
 	/*
 	 * Minus:点击元素--减小
@@ -288,9 +269,11 @@ $.fn.iVaryVal=function(iSet,CallBack){
 }
 //调用
 $( function() {
+	
 	$('.i_box').iVaryVal({},function(value,index){
 		$('.i_tips').html('你点击的表单索引是：'+index+'；改变后的表单值是：'+value);
 	});
+	
 });
 </script>
 </body>

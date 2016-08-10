@@ -1,0 +1,98 @@
+/* CSS Document */
+/*商户页首页 开始*/
+.x_Ctop{ overflow:hidden; padding:0 5%; background-color:#fff; height:50px; line-height:50px;}
+.x_Ctop>li:nth-child(1){ float:left; width:33.3%;}
+.x_Ctop>li:nth-child(1)>a{ width:30px; height:100%; display:block;}
+.x_Ctop>li:nth-child(1)>a>img{ width:18px; height:15px;}
+.x_Ctop>li:nth-child(2){ float:left; width:33.3%; text-align:center; font-size:14px; color:#000000;}
+.x_Ctop>li:nth-child(3){ float:right; width:20px;}
+.x_Ctop>li:nth-child(3)>a{ width:20px; height:100%; display:block;}
+.x_Ctop>li:nth-child(3)>a>img{ width:20px; height:20px;}
+.x_a{ width:100%; position:relative; padding-bottom:10px; background-color:#fff;}
+.x_a>a{ width:100%; height:180px; display:block;}
+.x_a>a>img{ width:100%; height:180px;}
+.x_b{ overflow:hidden; position:absolute; right:5%; top:20px;}
+.x_b>li{ float:left; width:26px; height:26px; margin-left:10px;}
+.x_c{ background:url(../images/2.png) no-repeat center center; background-size:26px 26px;}
+.x_d{ background:url(../images/4.png) no-repeat center center; background-size:26px 26px;}
+.x_e{ background:url(../images/5.png) no-repeat center center; background-size:26px 26px;}
+.x_f{background:url(../images/3.png) no-repeat center center; background-size:26px 26px;}
+.x_g{ overflow:hidden; padding:10px 5% 5px 5%;}
+.x_h{ float:left;font-size:14px; color:#000000;}
+.x_i{ padding:3px 5px; background-color:#ff8a00; color:#ffffff; font-size:12px; float:right; border-radius:5px;}
+.x_j{ font-size:12px; color:#aaaaaa; padding:0 5%;}
+.x_k{ overflow:hidden; padding:5px 5%;}
+.x_l{ font-size:12px; width:80%; float:left; display:inline-block;}
+.x_l>img{ width:15px; height:15px;}
+.x_m{ float:right; width:20px; height:20px;display:inline-block;}
+.x_m>img{ width:20px; height:20px;}
+.x_n{ width:100%; height:160px; display:inline-block;}
+.x_n>img{ width:100%; height:100%; display:block;}
+.x_o{ font-size:14px; color:#000000; line-height:20px; width:90%; margin:0 auto; display:block;}
+.x_p{ overflow:hidden; padding:10px 5%; font-size:12px; color:#aaaaaa;}
+.x_q{ float:left;}
+.x_r{ float:right;}
+.x_s{ padding:5px 5%;}
+.x_s>img{ width:20px; height:20px; vertical-align:middle;}
+.x_t{ background-color:#ffffff; margin-top:5px;}
+.x_u{ background-color:#ffffff; margin-top:5px; padding:15px 0; overflow:hidden; height:260px;}
+.x_v{ float:left; width:100px;}
+.x_w{ width:100%; height:32px; text-align:center; line-height:32px; border:1px #aaaaaa solid; border-bottom:0; font-size:12px; color:#686868;}
+.x_v>li:nth-last-child(1){ border-bottom:1px #aaaaaa solid;}
+.x_x{ background-color:#c6c6c6; color:#000000;}
+.x_y{ float:right;width:66%;}
+.x_z{ overflow:hidden; border-bottom:1px #aaaaaa solid; padding-bottom:10px; padding-top:10px;}
+.x_Aa{ width:50px; height:50px; border-radius:8px; float:left;}
+.x_Ab{ width:70%; float:right; padding-right:3%;}
+.x_Ac{ font-size:12px; color:#000000; line-height:20px;}
+.x_Ad{ margin-top:5px; overflow:hidden;}
+.x_Ae{ font-size:12px; color:#c20202; float:left;}
+.x_Af{ float:right; overflow:hidden;}
+.x_Af>li{ float:left;}
+.i_box{ float:right;overflow:hidden;}
+.J_minus{ width:16px; display:inline-block;text-align:center;color:#000000; border:1px #aaaaaa solid; border-radius:5px 0 0 5px;height:17px; float:left; font-size:12px; line-height:17px;}
+.J_input{width:24px; display:inline-block; text-align:center;color:#000; border-top:1px #aaaaaa solid; border-bottom:1px #aaaaaa solid;height:17px;float:left; font-size:12px; line-height:17px; }
+.J_add{ width:16px; display:inline-block;text-align:center;color:#000000; border:1px #aaaaaa solid; border-radius:0 5px 5px 0;height:17px;float:left; font-size:12px; line-height:17px; }
+.x_Ah{ background-color:#ffffff; margin-top:5px; padding:10px 5%;}
+.x_Ai{ font-size:14px; color:#000000;}
+.x_Aj{ font-size:12px; color:#aaaaaa; line-height:20px;}
+.x_Ak{ width:100%; height:160px; display:block; margin-top:10px;}
+.x_Ak>img{ width:100%; height:160px;}
+.x_Al{ overflow:hidden; background-color:#ffffff; margin-bottom:50px;}
+.x_Am{ float:left; height:50px; line-height:50px; width:50px; text-align:center;}
+.x_Am>img{ width:20px; height:22px; margin-top:14px;}
+.x_An{ width:100px; height:50px; text-align:center; line-height:50px; float:right; background-color:#007aff; font-size:14px; color:#ffffff;}
+.x_Ao{ float:right; height:50px; line-height:50px; font-size:14px; color:#aaaaaa; margin-right:10px;}
+.x_Ao>span{ font-size:12px; color:#007aff;}
+.x_Ap{ width:100%;overflow:hidden; background-color:#ffffff; position: fixed; bottom:0;}
+.x_Ap>li{ width:20%; height:50px; text-align:center; float:left;}
+.x_Ap>li>a{ width:100%; height:100%; display:block;}
+.x_Aq{ width:20px; height:20px; margin-top:5px;}
+.x_Ar{ font-size:12px; color:#007aff;}
+.x_As{ color:#aaaaaa;}
+/*商户页首页 结束*/
+/*活动详情页 开始*/
+.x_At{ padding:10px 5%;}
+.x_Au{ font-size:14px; color:#000000;}
+.x_Av{ font-size:12px; color:#aaaaaa; line-height:20px;}
+.x_Aw{ width:100%; height:160px; display:block;}
+.x_Aw>img{ width:100%; height:160px;}
+.x_Ax{ padding:0 5%; font-size:12px; color:#000000; line-height:20px; display:block; margin-top:5px;}
+.x_Ay{ padding:10px 0;}
+.x_Ay>li{ margin-top:10px;}
+.x_Az{ width:100%; height:160px; display:block;}
+.x_Az>img{width:100%; height:160px;}
+.x_Ba{ padding:0 5%; display:block; font-size:14px; color:#000000; line-height:24px; margin-top:5px;}
+
+/*活动详情页 结束*/
+
+
+
+
+
+
+
+
+
+
+
