@@ -1,0 +1,147 @@
+/* CSS Document */
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.top{
+	font-size: 1.5em;
+	/*font-weight: bold;*/
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background-color:#ededed;
+}
+.main{
+	margin-left: 10px;
+}
+.main .avatar img{
+	width: 70px;
+	height: 70px;
+	float: left;
+}
+.main .right{
+	float: left;
+	/*padding-top: 20px;*/
+	width: 100%;
+}
+.main .avatar .user-info{
+	float: left;
+	padding-top: 30px;
+	margin-left: 10px;
+}
+.main .avatar .user-info .name{
+	font-size: 1.7em;
+	color: rgb(20,122,243);
+	font-weight: 600;
+}
+.main .avatar .user-info .signature{
+	font-size: 0.9em;
+	color: #CCC;
+	font-weight: normal;
+}
+.main .avatar .user-info{
+	margin-bottom: 20px;
+}
+.main .right .content .text{
+	font-size: 1.3em;
+	line-height: 2em;
+}
+.main .right .content .image-list{
+	width: 100%;
+}
+.main .right .content img{
+	width: 32%;
+}
+.comment{
+	margin-top: 20px;
+	padding: 10px;
+	background-color: rgb(245,245,245);
+}
+.comment .like-users i{
+	font-size: 2em;
+	vertical-align: top;
+	width: 10%;
+}
+.comment .like-users ul{
+	display: inline-block;
+	/*margin-top: 10px;*/
+	width: 90%;
+}
+.comment .like-users li{
+	float: left;
+	margin-left: 5px;
+}
+.comment .like-users li img{
+	width: 30px;
+	height: 30px;
+}
+.comment .comment-users i{
+	font-size: 2em;
+	vertical-align: top;
+	width: 10%;
+}
+.comment .comment-users ul{
+	display: inline-block;
+	width: 90%;
+}
+.comment .comment-users ul li img{
+	width: 15%;
+}
+.comment .comment-users .comment-li{
+	display: inline-block;
+	width: 80%;
+}
+.comment .comment-users .comment-li .info{
+	margin-left: 5px;
+	line-height: 35px;
+}
+.comment .comment-users .comment-li .info .name{
+	font-size: 1em;
+	color: rgb(20,122,243);
+	float: left;
+}
+.comment .comment-users .comment-li .info .time{
+	float: right;
+}
+.comment .comment-users .comment-li .content{
+	font-size: 0.9em;
+}
+.answer{
+	line-height: 30px;
+	text-align: center;
+	width: 100%;
+	font-size: 1.2em;
+	color: #888;
+	background-color: rgb(245,245,245);
+}
+.travelTypeTab{
+	float: right;
+	margin-right: 10px;
+}
+.travelTypeTab img{
+	width: 20px !important;
+	height: 20px;
+	vertical-align: middle;
+}
+.qa-comment{
+	padding: 10px;
+}
+.qa-comment .comment-users li .a-user-info .avatar,
+.qa-comment .comment-users li .a-user-info .info{
+	display: inline-block;
+}
+.qa-comment .comment-users li .a-user-info .avatar{
+    vertical-align: middle;
+}
+.qa-comment .comment-users li .a-user-info .avatar img{
+	width: 50px;
+	height: 50px;
+}
+.qa-comment .comment-users li .a-user-info .info .name{
+	color: rgb(20,122,243);
+	font-size: 1.2em;
+}
