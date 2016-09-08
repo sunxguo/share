@@ -52,7 +52,7 @@ class Share extends CI_Controller {
 		$comment = json_decode($result)->pageInfo->list; //将接口返回的结果转换成普通数组
 		// print_r($result);
 
-		$this->load->view('footPrint',array("footPrint"=>$footPrint[0],"laud"=>$laud,"comment"=>$comment));
+		$this->load->view('footprint',array("footPrint"=>$footPrint[0],"laud"=>$laud,"comment"=>$comment));
 	}
 	public function qa(){
 		$id=isset($_GET['id'])?$_GET['id']:1;
